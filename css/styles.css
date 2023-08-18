@@ -3,12 +3,7 @@
 #08fdd8
 #64ffda
 */
-:root {
-    --body-color: #1d1d1d;
-    --section-background-color:
-    --font-color:#fff;
-    --buttons-color:#08fdd8;
-}
+
 /* Global styles
 ------------------------------------*/
 
@@ -31,8 +26,8 @@ html{
 
 body{
 
-    background-color: --background-color;
-    color: --font-color;
+    background-color: #1d1d1d;
+    color: #ffffffea;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
@@ -60,7 +55,7 @@ h2{
     padding-top: 20px;
     padding-bottom: 40px;
     margin: 0;
-    color: --buttons-color;
+    color: #02daba;
     text-align: center;
 }
 
@@ -79,7 +74,7 @@ h4{
   
 a{
     text-decoration: none;
-    color: --buttons-color;
+    color: #02daba;
     font-weight: 600;
     font-size: 2.5rem;
 
@@ -135,7 +130,7 @@ header{
 .view{
     padding: 8px;
     border-radius: 4px;
-    background-color: --section-background-color;
+    background-color: #373737;
     border: 2px;
     margin: 4px;
 }
@@ -172,7 +167,7 @@ header{
 
 #about-me{
     margin: 0 auto;
-    background-color: --section-background-color;
+    background-color: #2D2D2D;
     padding: 20px;
         
 }
@@ -189,7 +184,7 @@ header{
 ------------------------------------*/
 
 .faculty{
-    background-color: --section-background-color;
+    background-color: #373737;
     margin: 20px 10px 20px 10px;
 }
 
@@ -204,7 +199,7 @@ header{
     justify-content: space-evenly;
     text-align: center;
     margin: 50px 0;
-    border: --buttons-color 1px solid;
+    border: #373737 1px solid;
 }
 
 
@@ -277,8 +272,8 @@ padding: 20px;
 
 .project-item{
     display: flex;
-    align-items: center ;
-    border: --buttons-color 1px solid;
+    align-items:center ;
+    border: #373737 1px solid;
     justify-content: space-between;
     margin: 20px;
     gap: 40px;
